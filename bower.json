@@ -1,0 +1,12 @@
+{
+  "name": "bedrock-angular-meta",
+  "version": "0.0.1-0",
+  "main": "./main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "bedrock-angular": "^2.0.0"
+  }
+}

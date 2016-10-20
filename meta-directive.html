@@ -1,0 +1,5 @@
+<meta ng-repeat="attrs in $ctrl.meta[$ctrl.$location.url()]"
+  ng-attr-name="{{attrs.name || undefined}}"
+  ng-attr-property="{{attrs.property || undefined}}"
+  ng-attr-itemprop="{{attrs.itemprop || undefined}}"
+  ng-attr-content="{{attrs.content || undefined}}">
