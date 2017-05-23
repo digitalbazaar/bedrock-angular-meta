@@ -1,16 +1,10 @@
 /*!
- * Copyright (c) 2016 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2016-2017 Digital Bazaar, Inc. All rights reserved.
  */
-define(['angular'], function(angular) {
-
-'use strict';
-
-function register(module) {
-  module.service('brMetaService', factory);
-}
+import angular from 'angular';
 
 /* @ngInject */
-function factory($compile, $location, $rootScope) {
+export default function factory($compile, $location, $rootScope) {
   var service = {};
   var initialized = false;
 
@@ -44,7 +38,3 @@ function factory($compile, $location, $rootScope) {
 
   return service;
 }
-
-return register;
-
-});

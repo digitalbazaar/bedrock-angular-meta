@@ -1,0 +1,20 @@
+{
+  "name": "bedrock-angular-meta",
+  "version": "1.0.0",
+  "description": "A module that improves SEO by dynamically setting `meta` tags in a Bedrock AngularJS application.",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "~1.6.4"
+  },
+  "bedrock": {
+    "browserDependencies": "all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-angular-meta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-angular-meta/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-angular-meta#readme"
+}

@@ -1,20 +1,12 @@
 /*!
- * Copyright (c) 2016 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2016-2017 Digital Bazaar, Inc. All rights reserved.
  */
-define([], function() {
-
-'use strict';
-
-function register(module) {
-  module.directive('brMeta', factory);
-}
-
 /* @ngInject */
-function factory() {
+export default function factory() {
   return {
     replace: true,
     restrict: 'E',
-    templateUrl: requirejs.toUrl('bedrock-angular-meta/meta-directive.html'),
+    templateUrl: 'bedrock-angular-meta/meta-directive.html',
     controller: Ctrl,
     controllerAs: '$ctrl'
   };
@@ -26,7 +18,3 @@ function factory() {
     self.$location = $location;
   }
 }
-
-return register;
-
-});
