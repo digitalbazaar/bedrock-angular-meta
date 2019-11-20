@@ -4,7 +4,7 @@
   "description": "A module that improves SEO by dynamically setting `meta` tags in a Bedrock AngularJS application.",
   "main": "index.js",
   "dependencies": {
-    "angular": "~1.6.4"
+    "angular": "~1.7.9"
   },
   "bedrock": {
     "browserDependencies": "all"
